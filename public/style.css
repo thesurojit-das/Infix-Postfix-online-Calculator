@@ -1,0 +1,34 @@
+body {
+    background: #28282B;
+    /* color: white; */
+    background-image: url("pic.png");
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.box {
+    border: 1px solid red;
+    margin-top: 15vw;
+    background: rgba(243, 236, 236, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 5vw;
+}
+.bi{
+    size: 2rem;
+}
+button:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+    box-shadow: 10px 10px rgba(129, 122, 122, 0.424);
+    border-radius: 0px;
+}
+@media screen and (min-width:320px) and (max-width:428px){
+    h4{
+        font-size: 1.3rem;
+    }
+}
